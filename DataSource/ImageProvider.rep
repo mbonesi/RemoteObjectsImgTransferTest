@@ -1,0 +1,7 @@
+#include <QImage>
+
+class ImageProvider
+{
+    SLOT(TakeSnapshot());
+    PROP(QImage frame);
+};
